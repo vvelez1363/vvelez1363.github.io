@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentina Velez Castrillon</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body class="bg-gray-50 min-h-screen py-8 px-4">
+    <div class="max-w-7xl mx-auto">
+        <!-- Header con foto y nombre -->
+        <div class="bg-white rounded-3xl shadow-2xl p-8 mb-8 relative overflow-hidden border-4 border-purple-100">
+            <div class="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-purple-100 to-pink-100 opacity-30 rounded-full -mr-32 -mt-32"></div>
+            <div class="absolute bottom-0 left-0 w-48 h-48 bg-gradient-to-tr from-blue-100 to-purple-100 opacity-30 rounded-full -ml-24 -mb-24"></div>
+            
+            <div class="relative z-10 flex flex-col md:flex-row items-center gap-8">
+                <div class="relative">
+                    <div class="w-40 h-40 rounded-full ring-4 ring-purple-200 ring-offset-4 ring-offset-white overflow-hidden shadow-xl">
+                        <img src="/img/foto.jpg" alt="Valentina" class="w-full h-full object-cover">
+                    </div>
+                    <div class="absolute -bottom-2 -right-2 bg-green-400 w-8 h-8 rounded-full border-4 border-white shadow-lg"></div>
+                </div>
+                
+                <div class="flex-1 text-center md:text-left">
+                    <h1 class="text-5xl md:text-6xl font-black mb-2 tracking-tight gradient-text">
+                        Valentina Velez Castrillon
+                    </h1>
+                    <h2 class="text-2xl md:text-3xl font-light mb-4 text-gray-700">
+                        
+                    </h2>
+                    <p class="text-lg text-gray-600 max-w-2xl">
+                        Estudiante de Ingeniería en Informática
+                    </p>
+                </div>
+            <div class="flex flex-col gap-3 no-print">
+              <button onclick="window.print()" 
+                class="bg-gray-100 text-gray-700 px-6 py-3 rounded-xl font-semibold hover:bg-gray-200 transition flex items-center gap-2 border-2 border-gray-200">
+                  <i class="fas fa-download text-purple-600"></i>
+                  Descargar CV
+              </button>
+          </div>
+                
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <!-- Columna Izquierda - Info de Contacto y Skills -->
+            <div class="lg:col-span-1 space-y-6">
+                <!-- Contacto -->
+                <div class="bg-white rounded-2xl shadow-lg p-6 card-hover">
+                    <h3 class="text-2xl font-bold mb-6 gradient-text flex items-center gap-2">
+                        <i class="fas fa-address-card"></i>
+                        Contacto
+                    </h3>
+                    <div class="space-y-4">
+                        <a href="https://wa.me/573233339398" target="_blank" rel="noopener noreferrer"
+                           class="flex items-center gap-3 text-gray-700 hover:text-purple-600 transition group">
+                            <div class="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center group-hover:bg-green-500 transition">
+                                <i class="fab fa-whatsapp text-green-600 group-hover:text-white"></i>
+                            </div>
+                            <span class="text-sm">+57 323 333 9398</span>
+                        </a>
+                        
+                        <div class="flex items-center gap-3 text-gray-700">
+                            <div class="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center">
+                                <i class="fas fa-envelope text-purple-600"></i>
+                            </div>
+                            <span class="text-sm break-all">valentina.velez34629@ucaldas.edu.co</span>
+                        </div>
+                        <div class="flex items-center gap-3 text-gray-700">
+                            <div class="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center">
+                                <i class="fas fa-envelope text-purple-600"></i>
+                            </div>
+                            <span class="text-sm break-all">vvelezcastrillon@gmail.com</span>
+                        </div>
+                        
+                        <div class="flex items-center gap-3 text-gray-700">
+                            <div class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center">
+                                <i class="fas fa-map-marker-alt text-blue-600"></i>
+                            </div>
+                            <span class="text-sm">Manizales, Caldas</span>
+                        </div>
+                        
+                        <a href="https://www.linkedin.com/in/valentina-velez-castrillon-039132214" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 text-gray-700 hover:text-purple-600 transition group">
+                            <div class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center group-hover:bg-blue-600 transition">
+                                <i class="fab fa-linkedin text-blue-600 group-hover:text-white"></i>
+                            </div>
+                            <span class="text-sm">www.linkedin.com/in/valentina-velez-castrillon-039132214
+                              
+                            </span>
+                        </a>
+                        
+                        <a href="https://github.com/vvelez1363" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 text-gray-700 hover:text-purple-600 transition group">
+                            <div class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center group-hover:bg-purple-600 transition">
+                                <i class="fab fa-github text-white"></i>
+                            </div>
+                            <span class="text-sm">https://github.com/vvelez1363</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Habilidades Técnicas -->
+                <div class="bg-white rounded-2xl shadow-lg p-6 card-hover">
+                    <h3 class="text-2xl font-bold mb-6 gradient-text flex items-center gap-2">
+                        <i class="fas fa-code"></i>
+                        Habilidades Blandas
+                    </h3>
+                    <div class="space-y-5">
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-semibold text-gray-700">Pensamiento analítico y crítico.
+                                </span>
+                                
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-semibold text-gray-700">Organización y disciplina académica.</span>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-semibold text-gray-700">Comunicación efectiva.
+                                </span>
+                                
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-semibold text-gray-700">Perseverancia y adaptabilidad.</span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-semibold text-gray-700">Resolución de problemas.</span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-semibold text-gray-700">Trabajo en equipo.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tech Stack -->
+                <div class="bg-white rounded-2xl shadow-lg p-6 card-hover">
+                    <h3 class="text-2xl font-bold mb-6 gradient-text flex items-center gap-2">
+                        <i class="fas fa-laptop-code"></i>
+                        Tecnologías y Herramientas
+                    </h3>
+                    
+                    <!-- Backend -->
+                    <div class="mb-5">
+                        <h4 class="text-sm font-bold text-gray-600 mb-3 flex items-center gap-2">
+                            <i class="fas fa-server text-purple-500"></i>
+                            BACKEND
+                        </h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1.5 bg-purple-100 text-purple-700 rounded-lg text-xs font-semibold">C#</span>
+                            <span class="px-3 py-1.5 bg-blue-100 text-blue-700 rounded-lg text-xs font-semibold">.NET</span>
+                            <span class="px-3 py-1.5 bg-yellow-100 text-yellow-700 rounded-lg text-xs font-semibold">Python</span>
+                            <span class="px-3 py-1.5 bg-green-100 text-green-700 rounded-lg text-xs font-semibold">Node.js</span>
+                            <span class="px-3 py-1.5 bg-red-100 text-red-700 rounded-lg text-xs font-semibold">Java</span>
+                        </div>
+                    </div>
+
+                    <!-- Frontend -->
+                    <div class="mb-5">
+                        <h4 class="text-sm font-bold text-gray-600 mb-3 flex items-center gap-2">
+                            <i class="fas fa-palette text-pink-500"></i>
+                            FRONTEND
+                        </h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1.5 bg-orange-100 text-orange-700 rounded-lg text-xs font-semibold">JavaScript</span>
+                            <span class="px-3 py-1.5 bg-red-100 text-red-600 rounded-lg text-xs font-semibold">HTML</span>
+                            <span class="px-3 py-1.5 bg-blue-100 text-blue-600 rounded-lg text-xs font-semibold">CSS</span>
+                            <span class="px-3 py-1.5 bg-emerald-100 text-emerald-700 rounded-lg text-xs font-semibold">EJS</span>
+                        </div>
+                    </div>
+
+                     <!-- Móvil -->
+                    <div class="mb-5">
+                        <h4 class="text-sm font-bold text-gray-600 mb-3 flex items-center gap-2">
+                            <i class="fas fa-mobile-alt text-indigo-500"></i>
+                            MÓVIL
+                        </h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1.5 bg-indigo-100 text-indigo-700 rounded-lg text-xs font-semibold">Kotlin</span>
+                            <span class="px-3 py-1.5 bg-green-100 text-green-700 rounded-lg text-xs font-semibold">Android Studio</span>
+                        </div>
+                    </div>
+
+                    <!-- Bases de Datos -->
+                    <div class="mb-5">
+                        <h4 class="text-sm font-bold text-gray-600 mb-3 flex items-center gap-2">
+                            <i class="fas fa-database text-blue-500"></i>
+                            BASES DE DATOS
+                        </h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1.5 bg-blue-100 text-blue-700 rounded-lg text-xs font-semibold">SQL Server</span>
+                            <span class="px-3 py-1.5 bg-sky-100 text-sky-700 rounded-lg text-xs font-semibold">PostgreSQL</span>
+                            <span class="px-3 py-1.5 bg-teal-100 text-teal-700 rounded-lg text-xs font-semibold">Sequelize</span>
+                        </div>
+                    </div>
+
+                    <!-- Herramientas -->
+                    <div class="mb-5">
+                        <h4 class="text-sm font-bold text-gray-600 mb-3 flex items-center gap-2">
+                            <i class="fas fa-tools text-orange-500"></i>
+                            HERRAMIENTAS & IDE
+                        </h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1.5 bg-purple-100 text-purple-700 rounded-lg text-xs font-semibold">Visual Studio</span>
+                            <span class="px-3 py-1.5 bg-green-100 text-green-700 rounded-lg text-xs font-semibold">Android Studio</span>
+                            <span class="px-3 py-1.5 bg-blue-100 text-blue-700 rounded-lg text-xs font-semibold">Construct 2</span>
+                            <span class="px-3 py-1.5 bg-purple-100 text-purple-700 rounded-lg text-xs font-semibold">Unity</span>
+                            <span class="px-3 py-1.5 bg-green-100 text-green-700 rounded-lg text-xs font-semibold">Selenium</span>
+                            <span class="px-3 py-1.5 bg-teal-100 text-teal-700 rounded-lg text-xs font-semibold">Behave</span>
+                        </div>
+                    </div>
+
+                    <!-- Otros -->
+                    <div>
+                        <h4 class="text-sm font-bold text-gray-600 mb-3 flex items-center gap-2">
+                            <i class="fas fa-code-branch text-gray-600"></i>
+                            OTROS
+                        </h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1.5 bg-orange-100 text-orange-700 rounded-lg text-xs font-semibold">Git</span>
+                            <span class="px-3 py-1.5 bg-red-100 text-red-600 rounded-lg text-xs font-semibold">GitHub</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Columna Derecha -->
+            <div class="lg:col-span-2 space-y-6">
+                
+                 <!-- Sobre Mí -->
+                <div class="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl shadow-lg p-8 card-hover">
+                    <h3 class="text-3xl font-bold mb-6 gradient-text flex items-center gap-3">
+                        <i class="fas fa-user"></i>
+                        Sobre Mí
+                    </h3>
+                    <p class="text-gray-700 leading-relaxed text-lg">
+                        Soy una estudiante de Ingeniería en Informática con formación en desarrollo de software y análisis de datos. Me destaco por mi capacidad analítica, creatividad y pensamiento crítico, así como por habilidades blandas que me permiten comunicar ideas con claridad, trabajar en equipo y adaptarme a nuevos desafíos.
+                        Busco iniciar mis prácticas universitarias para aplicar mis conocimientos, fortalecer mis habilidades técnicas y aportar al diseño de soluciones eficientes y seguras.
+                    </p>
+                    <div class="mt-6 flex flex-wrap gap-3">
+                    </div>
+                </div>
+
+                <!-- Experiencia -->
+                <div class="bg-white rounded-2xl shadow-lg p-8 card-hover">
+                    <h3 class="text-3xl font-bold mb-8 gradient-text flex items-center gap-3 code-decoration">
+                        <i class="fas fa-briefcase"></i>
+                        Experiencia Proyectos Académicos
+                    </h3>
+                    
+                    <div class="space-y-6">
+                        <div class="relative pl-8 border-l-4 border-purple-500">
+                            <div class="absolute -left-3 top-0 w-6 h-6 bg-purple-500 rounded-full ring-4 ring-purple-100"></div>
+                            <h4 class="text-xl font-bold text-gray-800 mb-1">Sistema RutasUArquitectura</h4>
+                            <h5 class="text-purple-600 font-semibold mb-3">Reubicación de aulas universitarias con mapas 3D e IA. (Colaborativo)</h5>
+                        </div>
+                    </div>
+                    <div class="space-y-6">
+                        <div class="relative pl-8 border-l-4 border-purple-500">
+                            <div class="absolute -left-3 top-0 w-6 h-6 bg-purple-500 rounded-full ring-4 ring-purple-100"></div>
+                            <h4 class="text-xl font-bold text-gray-800 mb-1">Videojuego Unity</h4>
+                            <h5 class="text-purple-600 font-semibold mb-3">Estilo shooter con enemigos zombies, drones y aracnobots. (Colaborativo)</h5>
+                        </div>
+                    </div>
+                    <div class="space-y-6">
+                        <div class="relative pl-8 border-l-4 border-purple-500">
+                            <div class="absolute -left-3 top-0 w-6 h-6 bg-purple-500 rounded-full ring-4 ring-purple-100"></div>
+                            <h4 class="text-xl font-bold text-gray-800 mb-1">Sistema CRUD con Sequelize y EJS</h4>
+                            <h5 class="text-purple-600 font-semibold mb-3">Autenticación, módulos Built-in de Node y persistencia de datos.</h5>
+                        </div>
+                    </div>
+                    <div class="space-y-6">
+                        <div class="relative pl-8 border-l-4 border-purple-500">
+                            <div class="absolute -left-3 top-0 w-6 h-6 bg-purple-500 rounded-full ring-4 ring-purple-100"></div>
+                            <h4 class="text-xl font-bold text-gray-800 mb-1">Sistema de Ventas</h4>
+                            <h5 class="text-purple-600 font-semibold mb-3">Ventas de Accesorios Deportivos Extremos – Proyecto con JavaScript y C# (Colaborativo)</h5>
+                        </div>
+                    </div>
+                    <div class="space-y-6">
+                        <div class="relative pl-8 border-l-4 border-purple-500">
+                            <div class="absolute -left-3 top-0 w-6 h-6 bg-purple-500 rounded-full ring-4 ring-purple-100"></div>
+                            <h4 class="text-xl font-bold text-gray-800 mb-1">Plataforma de Visualización de Energías Renovables</h4>
+                            <h5 class="text-purple-600 font-semibold mb-3">Gráficas interactivas con Python y React (Colaborativo).</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Educación -->
+                <div class="bg-white rounded-2xl shadow-lg p-8 card-hover">
+                    <h3 class="text-3xl font-bold mb-8 gradient-text flex items-center gap-3 code-decoration">
+                        <i class="fas fa-graduation-cap"></i>
+                        Educación
+                    </h3>
+                    
+                    <div class="relative pl-8 border-l-4 border-purple-500">
+                        <div class="absolute -left-3 top-0 w-6 h-6 bg-purple-500 rounded-full ring-4 ring-purple-100"></div>
+                        <div class="mb-1 flex items-center gap-3">
+                            <span class="px-3 py-1 bg-purple-100 text-purple-700 text-xs font-bold rounded-full">En curso, 2022 – Presente</span>
+                        </div>
+                        <h4 class="text-xl font-bold text-gray-800 mb-1">Ingeniería en Informática</h4>
+                        <h5 class="text-purple-600 font-semibold mb-3">Universidad de Caldas.</h5>
+                        <ul class="space-y-2 text-gray-600">        
+                            </li>
+                        </ul>
+                        
+                    </div>
+                    <div class="relative pl-8 border-l-4 border-gray-500">
+                        <div class="absolute -left-3 top-0 w-6 h-6 bg-gray-500 rounded-full ring-4 ring-gray-100"></div>
+                        <div class="mb-1 flex items-center gap-3">
+                            <span class="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-bold rounded-full">2025</span>
+                        </div>
+                        <h4 class="text-xl font-bold text-gray-800 mb-1">Diplomado en Programación en Java</h4>
+                        <h5 class="text-purple-600 font-semibold mb-3">Politécnico de Colombia – Certificación obtenida</h5>
+                        <ul class="space-y-2 text-gray-600">        
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="relative pl-8 border-l-4 border-gray-500">
+                        <div class="absolute -left-3 top-0 w-6 h-6 bg-gray-500 rounded-full ring-4 ring-gray-100"></div>
+                        <div class="mb-1 flex items-center gap-3">
+                            <span class="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-bold rounded-full">2025</span>
+                        </div>
+                        <h4 class="text-xl font-bold text-gray-800 mb-1">Bootcamp de Programación – Nivel Básico</h4>
+                        <h5 class="text-purple-600 font-semibold mb-3">Universidad de Caldas/Ministerio de las TICs – Certificación obtenida</h5>
+                        <ul class="space-y-2 text-gray-600">        
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="relative pl-8 border-l-4 border-gray-500">
+                        <div class="absolute -left-3 top-0 w-6 h-6 bg-gray-500 rounded-full ring-4 ring-gray-100"></div>
+                        <div class="mb-1 flex items-center gap-3">
+                            <span class="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-bold rounded-full">2024</span>
+                        </div>
+                        <h4 class="text-xl font-bold text-gray-800 mb-1">Auxiliar de cocina</h4>
+                        <h5 class="text-purple-600 font-semibold mb-3">Servicio Nacional de Aprendizaje - SENA</h5>
+                        <ul class="space-y-2 text-gray-600">        
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="relative pl-8 border-l-4 border-gray-500">
+                        <div class="absolute -left-3 top-0 w-6 h-6 bg-gray-500 rounded-full ring-4 ring-gray-100"></div>
+                        <div class="mb-1 flex items-center gap-3">
+                            <span class="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-bold rounded-full">2021</span>
+                        </div>
+                        <h4 class="text-xl font-bold text-gray-800 mb-1">Fundamentos de programación</h4>
+                        <h5 class="text-purple-600 font-semibold mb-3">MinTIC - Universidad Tecnológica de Pereira</h5>
+                        <ul class="space-y-2 text-gray-600">        
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="relative pl-8 border-l-4 border-gray-500">
+                        <div class="absolute -left-3 top-0 w-6 h-6 bg-gray-500 rounded-full ring-4 ring-gray-100"></div>
+                        <div class="mb-1 flex items-center gap-3">
+                            <span class="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-bold rounded-full">2021</span>
+                        </div>
+                        <h4 class="text-xl font-bold text-gray-800 mb-1">Técnico en asistencia administrativa</h4>
+                        <h5 class="text-purple-600 font-semibold mb-3">Servicio Nacional de Aprendizaje - SENA</h5>
+                        <ul class="space-y-2 text-gray-600">        
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="relative pl-8 border-l-4 border-gray-500">
+                        <div class="absolute -left-3 top-0 w-6 h-6 bg-gray-500 rounded-full ring-4 ring-gray-100"></div>
+                        <div class="mb-1 flex items-center gap-3">
+                            <span class="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-bold rounded-full">2021</span>
+                        </div>
+                        <h4 class="text-xl font-bold text-gray-800 mb-1">Bachiller Académico - Salud y nutrición</h4>
+                        <h5 class="text-purple-600 font-semibold mb-3">Escuela Nacional Auxiliares de Enfermería (E.N.A.E.)</h5>
+                        <ul class="space-y-2 text-gray-600">        
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="relative pl-8 border-l-4 border-gray-500">
+                        <div class="absolute -left-3 top-0 w-6 h-6 bg-gray-500 rounded-full ring-4 ring-gray-100"></div>
+                        <div class="mb-1 flex items-center gap-3">
+                            <span class="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-bold rounded-full">2018</span>
+                        </div>
+                        <h4 class="text-xl font-bold text-gray-800 mb-1">Introducción a la robótica aplicada</h4>
+                        <h5 class="text-purple-600 font-semibold mb-3">Servicio Nacional de Aprendizaje - SENA</h5>
+                        <ul class="space-y-2 text-gray-600">        
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="relative pl-8 border-l-4 border-gray-500">
+                        <div class="absolute -left-3 top-0 w-6 h-6 bg-gray-500 rounded-full ring-4 ring-gray-100"></div>
+                        <div class="mb-1 flex items-center gap-3">
+                            <span class="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-bold rounded-full">2018</span>
+                        </div>
+                        <h4 class="text-xl font-bold text-gray-800 mb-1">Analisis Microbiológico de muestras de alimentos / Desinfección de áreas y equipo de laboratorio</h4>
+                        <h5 class="text-purple-600 font-semibold mb-3">Servicio Nacional de Aprendizaje - SENA</h5>
+                        <ul class="space-y-2 text-gray-600">        
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="relative pl-8 border-l-4 border-gray-500">
+                        <div class="absolute -left-3 top-0 w-6 h-6 bg-gray-500 rounded-full ring-4 ring-gray-100"></div>
+                        <div class="mb-1 flex items-center gap-3">
+                            <span class="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-bold rounded-full">2018</span>
+                        </div>
+                        <h4 class="text-xl font-bold text-gray-800 mb-1">Comportamiento Emprendedor / Desarrollo Humano Integral</h4>
+                        <h5 class="text-purple-600 font-semibold mb-3">Servicio Nacional de Aprendizaje - SENA</h5>
+                        <ul class="space-y-2 text-gray-600">        
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="mt-8 text-center text-gray-500 text-sm">
+            <p>© 2025 Valentina Velez Castrillon</p>
+        </div>
+    </div>
+</body>
+</html>
